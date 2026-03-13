@@ -21,7 +21,6 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    ,
         "Basketball Team": {
             "description": "Team practices, drills, and interschool basketball matches",
             "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
@@ -57,7 +56,7 @@ activities = {
             "schedule": "Thursdays, 3:30 PM - 5:00 PM",
             "max_participants": 12,
             "participants": ["lucas@mergington.edu", "elijah@mergington.edu"]
-        }
+        },
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
